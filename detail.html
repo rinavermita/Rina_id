@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Branding Strategy for Female Cosmetics</title>
+	<link rel="stylesheet" href="bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.project-container {
+			background-color: white;
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(0,0,0,0.1);
+		}
+		.full-width-image {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.breadcrumb {
+			padding: 20px;
+			background-color: #f8f9fa;
+			font-family: 'IBM Plex Mono', monospace;
+			font-size: 14px;
+		}
+		.breadcrumb a {
+			color: black;
+			text-decoration: none;
+		}
+		.breadcrumb a:hover {
+			text-decoration: underline;
+		}
+		.project-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 50pt;
+			transform: translate(-50%, -50%);
+			color: white;
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+		.image-container {
+			position: relative;
+		}
+		
+		/* Slider Styles */
+		.project-slider {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+		.slider-container {
+			display: flex;
+			transition: transform 0.5s ease;
+			width: 300%;
+		}
+		.slider-slide {
+			width: 33.33%;
+			flex-shrink: 0;
+		}
+		.slider-slide img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.slider-controls {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			gap: 10px;
+		}
+		.slider-dot {
+			width: 10px;
+			height: 10px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 50%;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.slider-dot.active {
+			background-color: white;
+		}
+		
+		/* Slider Checkbox Hack */
+		.slider-toggle {
+			display: none;
+		}
+		#slide1:checked ~ .slider-container {
+			transform: translateX(0);
+		}
+		#slide2:checked ~ .slider-container {
+			transform: translateX(-33.33%);
+		}
+		#slide3:checked ~ .slider-container {
+			transform: translateX(-66.66%);
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html#contact">contact</a></li>
+			<li>sistem</li>
+			<li>informasi</li>
+			<li class="empty"></li>
+			<li><a href="profil.html">profil</a></li>
+			<li><a href="https://www.instagram.com/nnaaverm?igsh=amhyZjFvMDBmMGh6" target="_blank">instagram</a></li>
+			<li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="rina 1.jpeg" class="full-width-image" alt="Langkah Kecil di Jurusan Sistem Informasi">
+			<h1 class="project-title"></h1>Taken by<br>Afdhalu Yusuf</h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="../index.html"></a> 
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Small Steps in the Information Systems Major</h2>
+						<p>I chose the Information Systems major not because I was already skilled in technology, but because I wanted to understand how technology can become a solution for human life. At the beginning of my studies, doubts often appeared. Seeing friends who seemed to understand coding, databases, and systems more quickly made me feel left behind. I even questioned myself, wondering whether I had chosen the wrong major.
+
+However, as time went by, I began to realize that Information Systems is not only about writing code. This major teaches me how to think logically, analyze needs, manage data, and design useful systems. I learned that technology is not merely a tool, but a means to simplify work and support decision-making.
+
+My motivation to choose this major grew stronger when I realized that almost every field now depends on information systems. Business, education, healthcare, and even government institutions require structured systems and accurate data. I want to be part of the people who build and manage those systems.
+
+The journey in this major is certainly not always easy. There are moments of exhaustion, confusion, and even the desire to give up. However, every difficulty teaches me to be more patient and to keep learning. I understand that this process is shaping me into someone who is more prepared to face the professional world and future challenges.
+
+Information Systems is not just a major I chose for college. It is a path for growth, learning, and making a positive impact. As long as I continue to strive and trust the process, I believe that this choice will lead me to a better future.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>College Friends, Real Support</h2>
+						<p>College life feels lighter when surrounded by friends who support one another. Amid assignments, presentations, and back-to-back deadlines, we learn to help each other—sharing notes, reminding one another of tasks, and offering encouragement when someone starts to feel tired.
+
+Of course, not everything runs smoothly. Sometimes differences of opinion lead to small arguments. However, those moments never last long. We learn to understand each other, put our egos aside, and resolve problems calmly.
+
+Their presence often becomes a mood booster on difficult days. Simple laughter, small jokes, and togetherness help restore our motivation. With them, I learn that friendship in college is not only about studying together, but also about growing and enduring the journey together.</p>
+						<ul>		
+</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>About Me</h2>
+						<p>My name is Rina Vermita, and I was born in Kayuagung on August 29, 2005. Since childhood, I have been accustomed to learning independently. Life taught me not to rely too much on others and to try to handle many things on my own. Through this, I learned about responsibility, resilience, and the true meaning of perseverance.
+
+I am a fairly sensitive person with a heart that can easily feel low. Small things sometimes affect my emotions, but through those moments, I have learned to understand my feelings and get to know myself more deeply. I believe that emotions are not a weakness, but a part of the process of becoming a whole person.
+
+I like the color pink, as it represents calmness, gentleness, and hope to me. When my mood is down, music becomes a place where I find comfort. My favorite song is “My Everything” by Ariana Grande, a song that always reminds me of gratitude, sincerity, and strength found in simple warmth.
+
+Currently, I am a college student who continues to grow and improve myself. I believe that every journey has its own timing, and as long as I keep learning and never give up, I will eventually reach the best version of myself:</p>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Ups and Downs During Three Semesters</h2>
+						<p>During three semesters of college life, I have experienced many ups and downs that came alternately. At the beginning, everything felt unfamiliar—the new environment, different academic demands, and doubts about whether I was capable of going through it all.
+
+On the downside, there were times when assignments piled up, rest time was reduced, and my mind felt exhausted. Feelings of wanting to give up often appeared, especially when the results did not meet my expectations. Adapting to the rhythm of college life taught me patience, resilience, and perseverance.
+
+However, behind those challenges, the positive experiences felt far more meaningful. I gradually became accustomed to campus life, learned to study more independently, and felt a sense of satisfaction when I managed to complete tasks that initially seemed difficult. The friendships I built also became a source of motivation, making my college days feel lighter and more enjoyable.
+
+These three semesters have taught me that the process is not always easy, but it is always meaningful. Through both fatigue and happiness, I learned to keep going, to grow, and to believe that every step I take is shaping my future.</p>
+						<ul>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="rina 8.jpeg" alt="rina">
+								</div>
+								<div class="slider-slide">
+									<img src="rina 6.jpeg" alt="rina">
+								</div>
+								<div class="slider-slide">
+									<img src="rina 5.jpeg" alt="rina">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+		<h2>emile<br>
+			learning more?<br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="rinavermita@gmail.com">[email&#160;protected]</a></h2>
+			<p>Web Development by Rina Vermita</p>
+		</footer>
+	<script data-cfasync="false" src="rinavermita@gmail"></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"0979519352d845179b7d0b6ab2feaaab","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+	</html>
